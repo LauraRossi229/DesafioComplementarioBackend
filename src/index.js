@@ -18,6 +18,8 @@ const app = express();
 const server = http.createServer(app);
 const io = new socketIo(server);
 
+app.use(express.json());
+
 // Configura Handlebars como el motor de vistas
 const hbs = exphbs.create({
   defaultLayout: 'main',
