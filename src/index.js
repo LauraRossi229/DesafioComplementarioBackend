@@ -48,7 +48,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 const PORT = 8080;
 
-mongoose.connect('mongodb+srv://rossil229:QPwoer5512122l@cluster0.oeqfqws.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://rossil229:xxxxxxx@cluster0.oeqfqws.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
